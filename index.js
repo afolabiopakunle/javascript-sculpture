@@ -1,6 +1,5 @@
-// Import stylesheets
-import './style.css';
+const square = function(x) {
+  return x * x;
+}
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
-appDiv.innerHTML = `<h1>JS Starter</h1>`;
+console.log(square(32));
